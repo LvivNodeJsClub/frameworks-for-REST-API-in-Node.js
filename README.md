@@ -12,6 +12,9 @@
 Example app listening on port3000!
 ```
 
+* call `curl http://localhost:3000/hello/Ihor`
+* call `curl http://localhost:3000/hello\?user\=Ihor`
+
 
 * `ab -n 100 -c 10 http://localhost:3000/hello/Ihor`
 
