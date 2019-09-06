@@ -1,0 +1,37 @@
+Server Software:
+Server Hostname:        localhost
+Server Port:            3000
+
+Document Path:          /hello/Ihor
+Document Length:        11 bytes
+
+Concurrency Level:      100
+Time taken for tests:   3.281 seconds
+Complete requests:      50000
+Failed requests:        0
+Keep-Alive requests:    50000
+Total transferred:      10750000 bytes
+HTML transferred:       550000 bytes
+Requests per second:    15241.26 [#/sec] (mean)
+Time per request:       6.561 [ms] (mean)
+Time per request:       0.066 [ms] (mean, across all concurrent requests)
+Transfer rate:          3200.07 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       4
+Processing:     3    7   3.4      5      62
+Waiting:        3    7   3.4      5      62
+Total:          3    7   3.5      5      64
+
+Percentage of the requests served within a certain time (ms)
+  50%      5
+  66%      6
+  75%      6
+  80%      7
+  90%      9
+  95%     13
+  98%     19
+  99%     21
+ 100%     64 (longest request)
+

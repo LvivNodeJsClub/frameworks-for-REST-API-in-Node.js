@@ -2,7 +2,7 @@ const Hapi   = require('@hapi/hapi');
 
 // Create a server with a host and port
 const server = Hapi.server({
-    host: 'localhost',
+    host: '127.0.0.1',
     port: 3002
 });
 
