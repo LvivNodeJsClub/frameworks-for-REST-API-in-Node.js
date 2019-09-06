@@ -76,3 +76,13 @@ Example app listening on port 3000!
 ```
 
 ```
+
+
+## Run ALL example in parallel thru PM2
+
+* Install pm2 `npm install pm2 -g`
+* Run `pm2 start express-example/index.js`
+* Run `pm2 start koa-example/index.js `
+* Status `pm2 status`
+* Stop `pm2 stop 0 1`
+* Delete `pm2 delete 0 1`
