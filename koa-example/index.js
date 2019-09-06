@@ -1,12 +1,12 @@
 const Koa = require('koa');
 const router = require('koa-router')();
 
+const app = new Koa();
+const port = 3001;
+
 router.get('/hello/:user', async ctx => ctx.body = `Hello ${ctx.params.user}!`);
 
 router.get('/hello/', async ctx => ctx.body = `Hello ${ctx.query.user}!`);
-
-const app = new Koa();
-const port = 3001;
 
 app.use(router.routes());
 
