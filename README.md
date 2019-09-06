@@ -118,6 +118,27 @@ Example app listening on port http://[::]:3003!
 
 ```
 
+# Loopback example
+
+* Install dependency `npm install`
+* Start server `npm start`
+
+```
+> loopback-example@1.0.0 start ./frameworks-for-REST-API-in-Node/loopback-example
+> node -r source-map-support/register .
+
+Server is running at http://[::1]:3004
+```
+
+* Call #1 `curl http://localhost:3004/hello/Ihor`
+* Call #2 `curl http://localhost:3004/hello\?user\=Ihor`
+* Use [ab](https://httpd.apache.org/docs/2.4/programs/ab.html) to run performance test `ab -n 20000 -c 100 http://localhost:3004/hello/Ihor`
+* Use [ab](https://httpd.apache.org/docs/2.4/programs/ab.html) to run performance test `ab -n 20000 -c 100 curl http://localhost:3004/hello\?user\=Ihor`
+
+```
+
+```
+
 # Fastify example
 
 * Install dependency `npm install`
