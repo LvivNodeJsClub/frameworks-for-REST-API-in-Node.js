@@ -1,0 +1,43 @@
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            3004
+
+Document Path:          /hello/Ihor
+Document Length:        10 bytes
+
+Concurrency Level:      100
+Time taken for tests:   5.623 seconds
+Complete requests:      15000
+Failed requests:        0
+Keep-Alive requests:    0
+Total transferred:      3090000 bytes
+HTML transferred:       150000 bytes
+Requests per second:    2667.42 [#/sec] (mean)
+Time per request:       37.489 [ms] (mean)
+Time per request:       0.375 [ms] (mean, across all concurrent requests)
+Transfer rate:          536.61 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   1.1      1      33
+Processing:     7   37  14.6     33     113
+Waiting:        4   30  12.0     26     102
+Total:          7   37  14.6     34     113
+
+Percentage of the requests served within a certain time (ms)
+  50%     34
+  66%     38
+  75%     43
+  80%     46
+  90%     54
+  95%     71
+  98%     85
+  99%     89
+ 100%    113 (longest request)

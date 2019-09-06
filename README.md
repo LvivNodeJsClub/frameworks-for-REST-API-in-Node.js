@@ -55,7 +55,7 @@ Percentage of the requests served within a certain time (ms)
   99%     21
  100%     64 (longest request)
 ```
-See [ab.result](express-example/ab.result)
+See [ab.result](express-example/ab.result) and [ab.production.result](express-example/ab.production.result)
 
 # Koa example
 
@@ -112,7 +112,7 @@ Percentage of the requests served within a certain time (ms)
   99%      9
  100%     16 (longest request)
 ```
-See [ab.result](koa-example/ab.result)
+See [ab.result](koa-example/ab.result) and [ab.production.result](koa-example/ab.production.result)
 
 # Hapi example
 
@@ -169,7 +169,7 @@ Percentage of the requests served within a certain time (ms)
   99%     28
  100%     58 (longest request)
 ```
-See [ab.result](hapi-example/ab.result)
+See [ab.result](hapi-example/ab.result) and [ab.production.result](hapi-example/ab.production.result)
 
 # Restify example
 
@@ -226,7 +226,7 @@ Percentage of the requests served within a certain time (ms)
   99%     18
  100%     36 (longest request)
 ```
-See [ab.result](restify-example/ab.result)
+See [ab.result](restify-example/ab.result) and [ab.production.result](restify-example/ab.production.result)
 
 # Loopback example
 
@@ -283,7 +283,7 @@ Percentage of the requests served within a certain time (ms)
   99%     81
  100%    106 (longest request)
 ```
-See [ab.result](loopback-example/ab.result)
+See [ab.result](loopback-example/ab.result) and [ab.production.result](loopback-example/ab.production.result)
 
 # Fastify example
 
@@ -340,7 +340,7 @@ Percentage of the requests served within a certain time (ms)
   99%     11
  100%     22 (longest request)
 ```
-See [ab.result](fastify-example/ab.result)
+See [ab.result](fastify-example/ab.result) and [ab.production.result](fastify-example/ab.production.result)
 
 # Run ALL example in parallel thru PM2
 
