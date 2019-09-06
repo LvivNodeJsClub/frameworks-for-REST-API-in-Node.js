@@ -6,16 +6,16 @@
 * Start server `npm start`
 
 ```
-> express-example@1.0.0 start /Users/ihor/Workspace/frameworks-for-REST-API-in-Node/express-example
+> express-example@1.0.0 start ./frameworks-for-REST-API-in-Node/express-example
 > node index.js
 
-Example app listening on port3000!
+Example app listening on port 3000!
 ```
 
 * Call #1 `curl http://localhost:3000/hello/Ihor`
 * Call #2 `curl http://localhost:3000/hello\?user\=Ihor`
-* Use [ab](https://httpd.apache.org/docs/2.4/programs/ab.html) to run performance test `ab -n 100 -c 10 http://localhost:3000/hello/Ihor`
-* Use [ab](https://httpd.apache.org/docs/2.4/programs/ab.html) to run performance test `ab -n 100 -c 10 curl http://localhost:3000/hello\?user\=Ihor`
+* Use [ab](https://httpd.apache.org/docs/2.4/programs/ab.html) to run performance test `ab -n 20000 -c 100 http://localhost:3000/hello/Ihor`
+* Use [ab](https://httpd.apache.org/docs/2.4/programs/ab.html) to run performance test `ab -n 20000 -c 100 curl http://localhost:3000/hello\?user\=Ihor`
 
 
 ```
