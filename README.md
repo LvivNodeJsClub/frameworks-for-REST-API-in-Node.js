@@ -97,6 +97,26 @@ Example app listening on port 3002!
 
 ```
 
+# Restify example
+
+* Install dependency `npm install`
+* Start server `npm start`
+
+```
+> restify-example@1.0.0 start ./frameworks-for-REST-API-in-Node/restify-example
+> node index.js
+
+Example app listening on port http://[::]:3003!
+```
+
+* Call #1 `curl http://localhost:3003/hello/Ihor`
+* Call #2 `curl http://localhost:3003/hello\?user\=Ihor`
+* Use [ab](https://httpd.apache.org/docs/2.4/programs/ab.html) to run performance test `ab -n 20000 -c 100 http://localhost:3003/hello/Ihor`
+* Use [ab](https://httpd.apache.org/docs/2.4/programs/ab.html) to run performance test `ab -n 20000 -c 100 curl http://localhost:3003/hello\?user\=Ihor`
+
+```
+
+```
 
 ## Run ALL example in parallel thru PM2
 
@@ -104,6 +124,7 @@ Example app listening on port 3002!
 * Run `pm2 start express-example/index.js`
 * Run `pm2 start koa-example/index.js`
 * Run `pm2 start hapi-example/index.js`
+* Run `pm2 start restify-example/index.js`
 * Status `pm2 status`
-* Stop `pm2 stop 0 1`
-* Delete `pm2 delete 0 1`
+* Stop `pm2 stop 0 1 2 3`
+* Delete `pm2 delete 0 1 2 3`
