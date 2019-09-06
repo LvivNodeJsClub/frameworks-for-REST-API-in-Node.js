@@ -1,0 +1,27 @@
+{
+  "name": "hapi-example",
+  "version": "1.0.0",
+  "description": "Hapi example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LvivNodeJsClub/frameworks-for-REST-API-in-Node.js.git"
+  },
+  "keywords": [
+    "hapi"
+  ],
+  "author": "Ihor Banadiga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LvivNodeJsClub/frameworks-for-REST-API-in-Node.js/issues"
+  },
+  "homepage": "https://github.com/LvivNodeJsClub/frameworks-for-REST-API-in-Node.js#readme",
+  "dependencies": {
+    "@hapi/hapi": "^18.3.2",
+    "hapi": "^18.1.0"
+  }
+}
