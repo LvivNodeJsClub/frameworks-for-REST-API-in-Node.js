@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/LvivNodeJsClub/frameworks-for-REST-API-in-Node.js#readme",
   "dependencies": {
-    "@hapi/hapi": "^18.3.2",
-    "hapi": "^18.1.0"
+    "@hapi/hapi": "^18.3.2"
   }
 }
