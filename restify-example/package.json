@@ -1,0 +1,26 @@
+{
+  "name": "restify-example",
+  "version": "1.0.0",
+  "description": "Restify example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LvivNodeJsClub/frameworks-for-REST-API-in-Node.js.git"
+  },
+  "keywords": [
+    "restify"
+  ],
+  "author": "Ihor Banadiga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LvivNodeJsClub/frameworks-for-REST-API-in-Node.js/issues"
+  },
+  "homepage": "https://github.com/LvivNodeJsClub/frameworks-for-REST-API-in-Node.js#readme",
+  "dependencies": {
+    "restify": "^8.4.0"
+  }
+}

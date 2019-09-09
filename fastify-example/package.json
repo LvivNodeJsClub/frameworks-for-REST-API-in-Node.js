@@ -1,0 +1,26 @@
+{
+  "name": "fastify-example",
+  "version": "1.0.0",
+  "description": "Fastify example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LvivNodeJsClub/frameworks-for-REST-API-in-Node.js.git"
+  },
+  "keywords": [
+    "fastify"
+  ],
+  "author": "Ihor Banadiga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LvivNodeJsClub/frameworks-for-REST-API-in-Node.js/issues"
+  },
+  "homepage": "https://github.com/LvivNodeJsClub/frameworks-for-REST-API-in-Node.js#readme",
+  "dependencies": {
+    "fastify": "^2.8.0"
+  }
+}
