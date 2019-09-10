@@ -13,31 +13,31 @@ Document Path:          /hello/Ihor
 Document Length:        13 bytes
 
 Concurrency Level:      100
-Time taken for tests:   2.067 seconds
+Time taken for tests:   1.504 seconds
 Complete requests:      50000
 Failed requests:        0
 Keep-Alive requests:    50000
 Total transferred:      8100000 bytes
 HTML transferred:       650000 bytes
-Requests per second:    24185.65 [#/sec] (mean)
-Time per request:       4.135 [ms] (mean)
-Time per request:       0.041 [ms] (mean, across all concurrent requests)
-Transfer rate:          3826.24 [Kbytes/sec] received
+Requests per second:    33249.17 [#/sec] (mean)
+Time per request:       3.008 [ms] (mean)
+Time per request:       0.030 [ms] (mean, across all concurrent requests)
+Transfer rate:          5260.12 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   0.1      0       6
-Processing:     1    4   2.7      3      29
-Waiting:        1    4   2.7      3      29
-Total:          1    4   2.7      3      30
+Connect:        0    0   0.1      0       4
+Processing:     2    3   0.8      3      10
+Waiting:        0    3   0.8      3      10
+Total:          2    3   0.8      3      10
 
 Percentage of the requests served within a certain time (ms)
   50%      3
-  66%      4
-  75%      4
-  80%      5
-  90%      7
-  95%      9
-  98%     12
-  99%     16
- 100%     30 (longest request)
+  66%      3
+  75%      3
+  80%      3
+  90%      4
+  95%      4
+  98%      6
+  99%      7
+ 100%     10 (longest request)

@@ -19,41 +19,41 @@ Example app listening on port 3000!
 
 ```
 Server Software:        
-Server Hostname:        localhost
+Server Hostname:        127.0.0.1
 Server Port:            3000
 
 Document Path:          /hello/Ihor
 Document Length:        11 bytes
 
 Concurrency Level:      100
-Time taken for tests:   3.281 seconds
+Time taken for tests:   2.807 seconds
 Complete requests:      50000
 Failed requests:        0
 Keep-Alive requests:    50000
 Total transferred:      10750000 bytes
 HTML transferred:       550000 bytes
-Requests per second:    15241.26 [#/sec] (mean)
-Time per request:       6.561 [ms] (mean)
-Time per request:       0.066 [ms] (mean, across all concurrent requests)
-Transfer rate:          3200.07 [Kbytes/sec] received
+Requests per second:    17809.69 [#/sec] (mean)
+Time per request:       5.615 [ms] (mean)
+Time per request:       0.056 [ms] (mean, across all concurrent requests)
+Transfer rate:          3739.34 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   0.1      0       4
-Processing:     3    7   3.4      5      62
-Waiting:        3    7   3.4      5      62
-Total:          3    7   3.5      5      64
+Connect:        0    0   0.1      0       5
+Processing:     1    6   1.2      5      20
+Waiting:        1    6   1.2      5      20
+Total:          1    6   1.2      5      21
 
 Percentage of the requests served within a certain time (ms)
   50%      5
   66%      6
   75%      6
-  80%      7
-  90%      9
-  95%     13
-  98%     19
-  99%     21
- 100%     64 (longest request)
+  80%      6
+  90%      7
+  95%      7
+  98%     10
+  99%     11
+ 100%     21 (longest request)
 ```
 See [ab.result](express-example/ab.result) and [ab.production.result](express-example/ab.production.result)
 
@@ -76,41 +76,41 @@ Example app listening on port 3000!
 
 ```
 Server Software:        
-Server Hostname:        localhost
+Server Hostname:        127.0.0.1
 Server Port:            3001
 
 Document Path:          /hello/Ihor
 Document Length:        11 bytes
 
 Concurrency Level:      100
-Time taken for tests:   2.054 seconds
+Time taken for tests:   2.101 seconds
 Complete requests:      50000
 Failed requests:        0
 Keep-Alive requests:    50000
 Total transferred:      7600000 bytes
 HTML transferred:       550000 bytes
-Requests per second:    24337.96 [#/sec] (mean)
-Time per request:       4.109 [ms] (mean)
-Time per request:       0.041 [ms] (mean, across all concurrent requests)
-Transfer rate:          3612.67 [Kbytes/sec] received
+Requests per second:    23792.67 [#/sec] (mean)
+Time per request:       4.203 [ms] (mean)
+Time per request:       0.042 [ms] (mean, across all concurrent requests)
+Transfer rate:          3531.72 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
 Connect:        0    0   0.1      0       4
-Processing:     1    4   1.0      4      16
-Waiting:        1    4   1.0      4      16
-Total:          1    4   1.1      4      16
+Processing:     2    4   1.2      4      13
+Waiting:        1    4   1.2      4      13
+Total:          2    4   1.2      4      14
 
 Percentage of the requests served within a certain time (ms)
   50%      4
   66%      4
   75%      4
-  80%      4
+  80%      5
   90%      5
   95%      6
-  98%      8
-  99%      9
- 100%     16 (longest request)
+  98%      9
+  99%     10
+ 100%     14 (longest request)
 ```
 See [ab.result](koa-example/ab.result) and [ab.production.result](koa-example/ab.production.result)
 
@@ -140,34 +140,34 @@ Document Path:          /hello/Ihor
 Document Length:        11 bytes
 
 Concurrency Level:      100
-Time taken for tests:   4.916 seconds
+Time taken for tests:   3.501 seconds
 Complete requests:      50000
 Failed requests:        0
 Keep-Alive requests:    50000
 Total transferred:      9900000 bytes
 HTML transferred:       550000 bytes
-Requests per second:    10170.12 [#/sec] (mean)
-Time per request:       9.833 [ms] (mean)
-Time per request:       0.098 [ms] (mean, across all concurrent requests)
-Transfer rate:          1966.49 [Kbytes/sec] received
+Requests per second:    14281.04 [#/sec] (mean)
+Time per request:       7.002 [ms] (mean)
+Time per request:       0.070 [ms] (mean, across all concurrent requests)
+Transfer rate:          2761.37 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   0.2      0       6
-Processing:     5   10   4.8      8      57
-Waiting:        5   10   4.8      8      57
-Total:          5   10   4.8      8      58
+Connect:        0    0   0.1      0       5
+Processing:     1    7   1.3      7      20
+Waiting:        0    7   1.3      7      20
+Total:          1    7   1.3      7      20
 
 Percentage of the requests served within a certain time (ms)
-  50%      8
-  66%      9
-  75%     10
-  80%     11
-  90%     16
-  95%     21
-  98%     26
-  99%     28
- 100%     58 (longest request)
+  50%      7
+  66%      7
+  75%      7
+  80%      7
+  90%      8
+  95%      9
+  98%     12
+  99%     13
+ 100%     20 (longest request)
 ```
 See [ab.result](hapi-example/ab.result) and [ab.production.result](hapi-example/ab.production.result)
 
@@ -190,41 +190,41 @@ Example app listening on port http://[::]:3003!
 
 ```
 Server Software:        restify
-Server Hostname:        localhost
+Server Hostname:        127.0.0.1
 Server Port:            3003
 
 Document Path:          /hello/Ihor
 Document Length:        13 bytes
 
 Concurrency Level:      100
-Time taken for tests:   2.165 seconds
+Time taken for tests:   2.424 seconds
 Complete requests:      50000
 Failed requests:        0
 Keep-Alive requests:    50000
 Total transferred:      8100000 bytes
 HTML transferred:       650000 bytes
-Requests per second:    23096.75 [#/sec] (mean)
-Time per request:       4.330 [ms] (mean)
-Time per request:       0.043 [ms] (mean, across all concurrent requests)
-Transfer rate:          3653.98 [Kbytes/sec] received
+Requests per second:    20624.58 [#/sec] (mean)
+Time per request:       4.849 [ms] (mean)
+Time per request:       0.048 [ms] (mean, across all concurrent requests)
+Transfer rate:          3262.87 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   0.2      0       4
-Processing:     2    4   2.8      3      33
-Waiting:        2    4   2.8      3      33
-Total:          2    4   2.9      3      36
+Connect:        0    0   0.1      0       4
+Processing:     2    5   3.6      4      49
+Waiting:        1    5   3.6      4      49
+Total:          2    5   3.6      4      49
 
 Percentage of the requests served within a certain time (ms)
-  50%      3
+  50%      4
   66%      4
-  75%      5
-  80%      6
-  90%      7
-  95%      9
-  98%     12
-  99%     18
- 100%     36 (longest request)
+  75%      6
+  80%      7
+  90%      8
+  95%     10
+  98%     15
+  99%     20
+ 100%     49 (longest request)
 ```
 See [ab.result](restify-example/ab.result) and [ab.production.result](restify-example/ab.production.result)
 
@@ -254,34 +254,34 @@ Document Path:          /hello/Ihor
 Document Length:        10 bytes
 
 Concurrency Level:      100
-Time taken for tests:   5.276 seconds
+Time taken for tests:   4.804 seconds
 Complete requests:      15000
 Failed requests:        0
 Keep-Alive requests:    0
 Total transferred:      3090000 bytes
 HTML transferred:       150000 bytes
-Requests per second:    2842.88 [#/sec] (mean)
-Time per request:       35.176 [ms] (mean)
-Time per request:       0.352 [ms] (mean, across all concurrent requests)
-Transfer rate:          571.91 [Kbytes/sec] received
+Requests per second:    3122.36 [#/sec] (mean)
+Time per request:       32.027 [ms] (mean)
+Time per request:       0.320 [ms] (mean, across all concurrent requests)
+Transfer rate:          628.13 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    1   0.3      1       3
-Processing:     6   34  12.8     31     106
-Waiting:        3   28  10.4     25      93
-Total:          6   35  12.8     31     106
+Connect:        0    1   0.3      1       4
+Processing:     7   31  11.2     28      91
+Waiting:        3   26   9.0     23      89
+Total:          7   32  11.3     28      91
 
 Percentage of the requests served within a certain time (ms)
-  50%     31
-  66%     36
-  75%     39
-  80%     43
-  90%     50
-  95%     62
-  98%     76
-  99%     81
- 100%    106 (longest request)
+  50%     28
+  66%     32
+  75%     35
+  80%     38
+  90%     45
+  95%     54
+  98%     70
+  99%     82
+ 100%     91 (longest request)
 ```
 See [ab.result](loopback-example/ab.result) and [ab.production.result](loopback-example/ab.production.result)
 
@@ -311,34 +311,34 @@ Document Path:          /hello/Ihor
 Document Length:        11 bytes
 
 Concurrency Level:      100
-Time taken for tests:   1.766 seconds
+Time taken for tests:   1.563 seconds
 Complete requests:      50000
 Failed requests:        0
 Keep-Alive requests:    50000
 Total transferred:      7600000 bytes
 HTML transferred:       550000 bytes
-Requests per second:    28316.15 [#/sec] (mean)
-Time per request:       3.532 [ms] (mean)
-Time per request:       0.035 [ms] (mean, across all concurrent requests)
-Transfer rate:          4203.18 [Kbytes/sec] received
+Requests per second:    31988.74 [#/sec] (mean)
+Time per request:       3.126 [ms] (mean)
+Time per request:       0.031 [ms] (mean, across all concurrent requests)
+Transfer rate:          4748.33 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   0.1      0       4
-Processing:     1    4   1.7      3      21
-Waiting:        1    4   1.7      3      21
-Total:          1    4   1.7      3      22
+Connect:        0    0   0.1      0       5
+Processing:     1    3   1.0      3      13
+Waiting:        1    3   1.0      3      13
+Total:          1    3   1.0      3      13
 
 Percentage of the requests served within a certain time (ms)
   50%      3
   66%      3
-  75%      4
-  80%      4
-  90%      6
-  95%      7
-  98%      9
-  99%     11
- 100%     22 (longest request)
+  75%      3
+  80%      3
+  90%      4
+  95%      5
+  98%      7
+  99%      8
+ 100%     13 (longest request)
 ```
 See [ab.result](fastify-example/ab.result) and [ab.production.result](fastify-example/ab.production.result)
 

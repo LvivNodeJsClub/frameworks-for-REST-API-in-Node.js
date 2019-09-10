@@ -1,36 +1,43 @@
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)
+
+
 Server Software:        restify
-Server Hostname:        localhost
+Server Hostname:        127.0.0.1
 Server Port:            3003
 
 Document Path:          /hello/Ihor
 Document Length:        13 bytes
 
 Concurrency Level:      100
-Time taken for tests:   2.165 seconds
+Time taken for tests:   2.424 seconds
 Complete requests:      50000
 Failed requests:        0
 Keep-Alive requests:    50000
 Total transferred:      8100000 bytes
 HTML transferred:       650000 bytes
-Requests per second:    23096.75 [#/sec] (mean)
-Time per request:       4.330 [ms] (mean)
-Time per request:       0.043 [ms] (mean, across all concurrent requests)
-Transfer rate:          3653.98 [Kbytes/sec] received
+Requests per second:    20624.58 [#/sec] (mean)
+Time per request:       4.849 [ms] (mean)
+Time per request:       0.048 [ms] (mean, across all concurrent requests)
+Transfer rate:          3262.87 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   0.2      0       4
-Processing:     2    4   2.8      3      33
-Waiting:        2    4   2.8      3      33
-Total:          2    4   2.9      3      36
+Connect:        0    0   0.1      0       4
+Processing:     2    5   3.6      4      49
+Waiting:        1    5   3.6      4      49
+Total:          2    5   3.6      4      49
 
 Percentage of the requests served within a certain time (ms)
-  50%      3
+  50%      4
   66%      4
-  75%      5
-  80%      6
-  90%      7
-  95%      9
-  98%     12
-  99%     18
- 100%     36 (longest request)
+  75%      6
+  80%      7
+  90%      8
+  95%     10
+  98%     15
+  99%     20
+ 100%     49 (longest request)
