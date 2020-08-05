@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/LvivNodeJsClub/frameworks-for-REST-API-in-Node.js#readme",
   "dependencies": {
-    "fastify": "^2.8.0"
+    "fastify": "^2.15.1"
   }
 }
